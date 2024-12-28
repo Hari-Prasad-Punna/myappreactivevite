@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className='app'>
-      <header>
+      <header className='header'>
         <h1>{name}</h1>
         <p>{profession}</p>
         <nav className='nav'>
@@ -50,7 +50,7 @@ function App() {
         
       </header>
       {/* {about section} */}
-      <section id = "about" className='about-section'> 
+    <section id = "about" className='about-section'> 
         <h2 >About</h2>
         <p>
           My name is {name}. I am a software developer. I have completed my graduation in computer science and my profession is {profession} I have 2 years of experience in software development.
